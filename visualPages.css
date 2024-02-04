@@ -1,0 +1,93 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+* a {
+  text-decoration: none;
+  color: #006633;
+  transition: all 0.3s ease-in;
+  font-weight: bolder;
+}
+* a:hover {
+  font-size: large;
+}
+* li {
+  list-style: none;
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  background-image: url(https://images.pexels.com/photos/5380618/pexels-photo-5380618.jpeg?auto=compress&cs=tinysrgb&w=);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.container {
+  width: 100%;
+  margin: 0px;
+  line-height: 100%;
+}
+
+div.header {
+  color: #ffcc33;
+  background: #006633;
+}
+div.header h1 {
+  margin: 0;
+  padding: 1.2rem;
+  text-align: center;
+}
+
+.content {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  text-align: center;
+  position: relative;
+}
+.content > div {
+  position: relative;
+  flex-basis: 37%;
+  padding: 1rem;
+  margin: 1rem;
+  height: 11rem;
+  border-radius: 1rem;
+  box-shadow: rgba(173, 255, 47, 0.25) 0px 50px 100px -20px, rgba(173, 255, 47, 0.3) 0px 30px 60px -30px, rgba(173, 255, 47, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: rgba(173, 255, 47, 0.35) 0px 5px 15px;
+  background: whitesmoke;
+}
+.content > div span {
+  position: relative;
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.content > div ul li {
+  margin-top: 0.5rem;
+}
+.content :nth-child(1),
+.content :nth-child(2) {
+  flex-basis: 25%;
+}
+.content :nth-child(1) > ul,
+.content :nth-child(2) > ul {
+  padding: 0;
+}
+
+.content-3 ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 0;
+  text-align: center;
+  gap: 0.5rem;
+}
+.content-3 ul li {
+  padding: 0.5rem 2rem;
+  flex-basis: 25%;
+  background-color: greenyellow;
+}

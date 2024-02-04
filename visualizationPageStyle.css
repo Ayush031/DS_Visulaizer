@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: #000000;
+}
+
+.VisualizationMainPage #mainContent {	
+	background: url(https://images.pexels.com/photos/5380618/pexels-photo-5380618.jpeg?auto=compress&cs=tinysrgb&w=);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.VisualizationMainPage #container {
+	text-align: left;
+}
+
+.VisualizationMainPage #algoControlSection {
+	color: #ffff66;
+
+}
+
+.VisualizationMainPage #generalAnimationControlSection {
+	background: #DDEEDD;
+	color: #ffff66;
+
+}
+
+.VisualizationMainPage #header {
+	background: #006633;
+	color: #ffCC33;
+	padding: 0 10px 0 20px;
+
+}
+
+.VisualizationMainPage #header A:visited {
+	text-decoration: none;
+	color: #ffCC33;
+}
+
+.VisualizationMainPage #header h1 {
+	margin: 0;
+	padding: 10px 0;
+}
+
+.VisualizationMainPage #header A:link {
+	text-decoration: none;
+	color: #ffCC33;
+}
+
+.VisualizationMainPage #container {
+	background: #FFFFFF;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.VisualizationMainPage #footer A:visited {
+	text-decoration: none;
+	color: ffcc33;
+}
+
+.VisualizationMainPage #footer A:link {
+	text-decoration: none;
+	color: #ffCC33;
+}
+
+.VisualizationMainPage #mainContent h1 {
+	padding: 0 20px;
+	background: #FFFFFF;
+	color: #006633
+}
+
+.VisualizationMainPage #mainContent h2 {
+	padding: 0 20px;
+	background: #FFFFFF;
+	color: #006633
+}
+
+.VisualizationMainPage #mainContent h3 {
+	padding: 0 20px;
+	background: #FFFFFF;
+	color: #006633
+}
+
+.VisualizationMainPage #footer {
+	padding: 0 10px;
+	background: #006633;
+	color: #ffcc33;
+}
+
+.VisualizationMainPage #footer p {
+	margin: 0;
+	padding: 10px 0;
+}
+
+EM {
+	text-decoration: bold;
+}
